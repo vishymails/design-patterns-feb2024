@@ -4,6 +4,7 @@ public class SedanBuilder extends CarBuilderPlan {
 
     private CarParts.carType carType = CarParts.carType.SEDAN;
     SedanBuilder() {
+        this.car = new Car();
         System.out.println("Sedan Built");
     }
     public void buildCarBody() {
@@ -24,6 +25,7 @@ class SportsBuilder extends CarBuilderPlan {
 
     private CarParts.carType carType = CarParts.carType.SPORTS;
     SportsBuilder() {
+        this.car = new Car();
         System.out.println("Sports Built");
     }
     public void buildCarBody() {
@@ -44,6 +46,7 @@ class LuxuryBuilder extends CarBuilderPlan {
 
     private CarParts.carType carType = CarParts.carType.LUXURY;
     LuxuryBuilder() {
+        this.car = new Car();
         System.out.println("Luxury Built");
     }
     public void buildCarBody() {
