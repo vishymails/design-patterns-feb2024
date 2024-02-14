@@ -1,11 +1,12 @@
-package com.bvr.creational.adapter;
+package com.bvr.structural.adapter;
 
-import com.bvr.creational.adapter.adapter.JsonAdapter;
-import com.bvr.creational.adapter.model.XmlModel;
-import com.bvr.creational.adapter.provider.JsonProvider;
-import com.bvr.creational.adapter.provider.XmlProvider;
-import com.bvr.creational.adapter.adapter.XmlAdapter   ;
-import com.bvr.creational.adapter.model.JsonModel;
+import com.bvr.structural.adapter.adapter.JsonAdapter;
+import com.bvr.structural.adapter.model.XmlModel;
+import com.bvr.structural.adapter.provider.JsonProvider;
+import com.bvr.structural.adapter.provider.XmlProvider;
+import com.bvr.structural.adapter.adapter.XmlAdapter;
+import com.bvr.structural.adapter.model.JsonModel;
+
 public class AdapterTest {
 
     private static String getJsonFromXml(XmlModel xmlModel) {

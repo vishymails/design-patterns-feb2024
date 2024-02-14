@@ -1,4 +1,4 @@
-package com.bvr.creational.adapter.model;
+package com.bvr.structural.adapter.model;
 
 public class XmlModel {
     private String xmlContent;

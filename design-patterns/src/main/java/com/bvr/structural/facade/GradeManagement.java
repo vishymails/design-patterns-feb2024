@@ -1,4 +1,4 @@
-package com.bvr.creational.facade;
+package com.bvr.structural.facade;
 
 import java.util.HashMap;
 import java.util.Map;

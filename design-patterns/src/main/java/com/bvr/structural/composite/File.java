@@ -1,4 +1,4 @@
-package com.bvr.creational.composite;
+package com.bvr.structural.composite;
 
 public class File implements FileSystemComponent {
     private String name;

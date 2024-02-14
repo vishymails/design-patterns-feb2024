@@ -1,6 +1,6 @@
-package com.bvr.creational.adapter.provider;
+package com.bvr.structural.adapter.provider;
 
-import com.bvr.creational.adapter.model.JsonModel;
+import com.bvr.structural.adapter.model.JsonModel;
 
 public class JsonProvider {
 

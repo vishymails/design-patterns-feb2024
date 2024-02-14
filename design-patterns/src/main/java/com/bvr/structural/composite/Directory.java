@@ -1,4 +1,4 @@
-package com.bvr.creational.composite;
+package com.bvr.structural.composite;
 
 import java.util.ArrayList;
 import java.util.List;

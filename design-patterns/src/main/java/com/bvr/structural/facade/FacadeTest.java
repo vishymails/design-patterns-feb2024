@@ -1,4 +1,4 @@
-package com.bvr.creational.facade;
+package com.bvr.structural.facade;
 
 public class FacadeTest {
 
